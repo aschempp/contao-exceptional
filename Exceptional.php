@@ -81,6 +81,7 @@ class Exceptional {
         switch ($errno) {
             case E_NOTICE:
             case E_USER_NOTICE:
+            	return; // PATCH: Contao throws a lot of notice errors, we don't care about them
                 $ex = new PhpNotice($errstr, $errno, $errfile, $errline);
                 break;
 
