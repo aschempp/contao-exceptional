@@ -1,0 +1,2 @@
+www.getexceptional.com is an online platform to track your application errors.
+This plugin for Contao will add the functionality to enter your personal API key and track errors in your Contao installation.
